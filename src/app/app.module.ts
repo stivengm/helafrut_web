@@ -11,10 +11,9 @@ import { FooterComponent } from './components/layout/footer/footer.component';
 import { ProductsComponent } from './components/products/products.component';
 import { CompanyComponent } from './components/company/company.component';
 
-import {
-  MatIconModule,
-  MatToolbarModule
-} from './core/angular_material/angular_material';
+
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
