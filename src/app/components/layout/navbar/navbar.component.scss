@@ -1,0 +1,14 @@
+.navbar {
+    padding: 20px 16px;
+    .title_app {
+        text-transform: uppercase;
+    }
+    .spacer {
+        flex: 1 1 auto;
+    }
+    .routes {
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+    }
+}
