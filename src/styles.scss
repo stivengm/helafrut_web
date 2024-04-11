@@ -3,5 +3,16 @@
 // Fuentes
 @import url("./fonts.scss");
 
+:root {
+    --mat-background-app: #fdfbff;
+    --mat-black-color: #000000;
+    --mat-white-color: #FFFFFF;
+}
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+    background-color: var(--mat-background-app);
+    margin: 0; 
+    font-family: Roboto, 
+    "Helvetica Neue", sans-serif; 
+}
