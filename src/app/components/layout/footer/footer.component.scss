@@ -1,0 +1,15 @@
+footer {
+    padding: 30px 20%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--mat-dark-color);
+    color: var(--mat-white-color);
+    .items_footer {
+        .title {
+            font-family: "Montserrat-semi-bold";
+        }
+        .content_footer {
+            font-family: "Montserrat-light";
+        }
+    }
+}
