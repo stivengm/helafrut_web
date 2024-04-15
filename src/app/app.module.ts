@@ -14,6 +14,7 @@ import { CompanyComponent } from './components/company/company.component';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { WhatsappComponent } from './components/shared/whatsapp/whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     NavbarComponent,
     FooterComponent,
     ProductsComponent,
-    CompanyComponent
+    CompanyComponent,
+    WhatsappComponent,
   ],
   imports: [
     BrowserModule,
