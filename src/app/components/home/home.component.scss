@@ -1,0 +1,61 @@
+.content_home {
+    padding: 25px 0 25px 10%;
+    .information {
+        display: flex;
+        .more_information_content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 60px;
+            .title {
+                font-family: "Montserrat-Bold";
+                text-transform: uppercase;
+                font-size: 46px;
+                color: #404040;
+            }
+            .sub_title {
+                font-family: "Montserrat-Bold";
+                text-transform: uppercase;
+                color: #404040;
+            }
+            .description {
+                font-family: "Montserrat-regular";
+                color: #949494;
+                font-size: 20px;
+            }
+            .list_valores {
+                list-style: none;
+                li {
+                    text-indent: -0.75em;
+                    font-family: "Montserrat-regular";
+                    color: #949494;
+                    &::before {
+                        display: inline-block;
+                        border-radius: 8px;
+                        content: '';
+                        background-color: #1CAF96;
+                        width: 20px;
+                        height: 10px;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+        .image_01 {
+            flex: 2;
+            // width: 700px;
+            height: 80vh;
+            background: url(../../../assets/images/img_1.png) no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
+        .image_02 {
+            flex: 2;
+            height: 80vh;
+            background: url(../../../assets/images/img_1.png) no-repeat;
+            background-size: contain;
+            background-position: left;
+        }
+    }
+}
