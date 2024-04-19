@@ -38,3 +38,78 @@ body {
         }
     }
 }
+
+
+
+// MediaQueries
+// Desktop
+@media screen and (min-width: 1024px) {
+    
+}
+
+// Tablets
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+// Mobile
+@media screen and (max-width: 767px) {
+
+    .navbar {
+        .routes {
+            display: none !important;
+        }
+    }
+
+    .content_home {
+        padding: 25px 20px 25px 20px !important;
+        .information {
+            display: block !important;
+            .more_information_content {
+                gap: 0 !important;
+                .title {
+                    line-height: 1;
+                }
+            }
+            .img_nuestro_producto {
+                height: 30vh !important;
+            }
+            .img_pulpa {
+                height: 30vh !important;
+            }
+        }
+        .information_pulpas {
+            .more_information_content {
+                .title {
+                    line-height: 1;
+                }
+                .information_pulpas_content {
+                    .item_2 {
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .content_company {
+        padding: 25px 20px 25px 20px !important;
+        .information {
+            display: block !important;
+            .image_01 {
+                height: 30vh !important;
+            }
+            .more_information_content {
+                gap: 0 !important;
+            }
+        }
+    }
+
+    footer {
+        padding: 30px 20px !important;
+        gap: 20px;
+    }
+    
+}
