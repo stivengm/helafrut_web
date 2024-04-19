@@ -1,0 +1,38 @@
+.content_company {
+    padding: 25px 0 25px 10%;
+    .information {
+        display: flex;
+        margin-bottom: 30px;
+        .more_information_content {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+            gap: 60px;
+            .title {
+                font-family: "Montserrat-Bold";
+                text-transform: uppercase;
+                font-size: 46px;
+                color: #404040;
+                line-height: 1;
+            }
+            .sub_title {
+                font-family: "Montserrat-Bold";
+                text-transform: uppercase;
+                color: #404040;
+            }
+            .description {
+                font-family: "Montserrat-regular";
+                color: #949494;
+                font-size: 20px;
+            }
+        }
+        .image_01 {
+            flex: 2;
+            height: 80vh;
+            background: url(../../../assets/images/img_1.png) no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
+    }
+}
