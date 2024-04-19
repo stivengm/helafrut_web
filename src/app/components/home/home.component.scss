@@ -2,6 +2,7 @@
     padding: 25px 0 25px 10%;
     .information {
         display: flex;
+        margin-bottom: 30px;
         .more_information_content {
             flex: 1;
             display: flex;
@@ -24,20 +25,15 @@
                 color: #949494;
                 font-size: 20px;
             }
-            .list_dinamic {
-                list-style: none;
-                li {
-                    text-indent: -0.75em;
-                    font-family: "Montserrat-regular";
-                    color: #949494;
-                    &::before {
-                        display: inline-block;
-                        border-radius: 8px;
-                        content: '';
-                        background-color: #1CAF96;
-                        width: 20px;
-                        height: 10px;
-                        margin-right: 0.5rem;
+            
+            .lists_flex {
+                display: flex;
+                gap: 20px;
+                .content_list {
+                    .title {
+                        font-family: "Montserrat-Bold";
+                        color: #1BAD96;
+                        font-size: 20px;
                     }
                 }
             }
@@ -50,9 +46,15 @@
             background-size: contain;
             background-position: right;
         }
+        .img_pulpa {
+            flex: 2;
+            height: 80vh;
+            background: url(../../../assets/images/pulpa.png) no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
         .image_01 {
             flex: 2;
-            // width: 700px;
             height: 80vh;
             background: url(../../../assets/images/img_1.png) no-repeat;
             background-size: contain;
@@ -99,9 +101,6 @@
                             }
                         }
                     }
-                }
-                .item_2 {
-
                 }
             }
         }

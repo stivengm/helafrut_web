@@ -17,3 +17,23 @@ body {
     font-family: Roboto, 
     "Helvetica Neue", sans-serif; 
 }
+
+
+// Listas
+.list_dinamic {
+    list-style: none;
+    li {
+        text-indent: -0.75em;
+        font-family: "Montserrat-regular";
+        color: #949494;
+        &::before {
+            display: inline-block;
+            border-radius: 8px;
+            content: '';
+            background-color: #1CAF96;
+            width: 20px;
+            height: 10px;
+            margin-right: 0.5rem;
+        }
+    }
+}
