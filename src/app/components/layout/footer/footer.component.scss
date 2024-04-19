@@ -6,10 +6,19 @@ footer {
     color: var(--mat-white-color);
     .items_footer {
         .title {
+            font-size: 18px;
             font-family: "Montserrat-semi-bold";
         }
         .content_footer {
             font-family: "Montserrat-light";
+            p {
+                font-family: "Montserrat-regular";
+                a {
+                    font-family: "Montserrat-Bold";
+                    text-decoration: none;
+                    color: var(--mat-white-color);
+                }
+            }
         }
     }
 }
