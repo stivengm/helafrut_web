@@ -2,7 +2,11 @@
     background-color: var(--mat-background-app);
     color: var(--mat-black-color);
     padding: 20px 16px;
+    .img_logo {
+        width: 59px;
+    }
     .title_app {
+        margin-left: 10px;
         text-transform: uppercase;
     }
     .spacer {

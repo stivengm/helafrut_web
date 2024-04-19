@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NavbarComponent } from './components/layout/navbar/navbar.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
-import { ProductsComponent } from './components/products/products.component';
 import { CompanyComponent } from './components/company/company.component';
 
 
@@ -16,13 +15,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { WhatsappComponent } from './components/shared/whatsapp/whatsapp.component';
 
+import { ProductsModule } from './components/products/products.module';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    ProductsComponent,
     CompanyComponent,
     WhatsappComponent,
   ],
@@ -32,7 +32,8 @@ import { WhatsappComponent } from './components/shared/whatsapp/whatsapp.compone
     BrowserAnimationsModule,
 
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    ProductsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

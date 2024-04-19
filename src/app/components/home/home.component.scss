@@ -24,7 +24,7 @@
                 color: #949494;
                 font-size: 20px;
             }
-            .list_valores {
+            .list_dinamic {
                 list-style: none;
                 li {
                     text-indent: -0.75em;
@@ -42,6 +42,14 @@
                 }
             }
         }
+        .img_nuestro_producto {
+            flex: 2;
+            // width: 700px;
+            height: 80vh;
+            background: url(../../../assets/images/nuestro_producto.png) no-repeat;
+            background-size: contain;
+            background-position: right;
+        }
         .image_01 {
             flex: 2;
             // width: 700px;
@@ -56,6 +64,46 @@
             background: url(../../../assets/images/img_1.png) no-repeat;
             background-size: contain;
             background-position: left;
+        }
+    }
+    .information_pulpas {
+        .more_information_content{
+            .title {
+                font-family: "Montserrat-Bold";
+                text-transform: uppercase;
+                font-size: 46px;
+                color: #404040;
+            }
+            .information_pulpas_content {
+                display: flex;
+                .item_1 {
+                    .sub_title {
+                        font-family: "Montserrat-Bold";
+                        text-transform: uppercase;
+                        color: #404040;
+                    }
+                    .list_dinamic {
+                        list-style: none;
+                        li {
+                            text-indent: -0.75em;
+                            font-family: "Montserrat-regular";
+                            color: #949494;
+                            &::before {
+                                display: inline-block;
+                                border-radius: 8px;
+                                content: '';
+                                background-color: #1CAF96;
+                                width: 20px;
+                                height: 10px;
+                                margin-right: 0.5rem;
+                            }
+                        }
+                    }
+                }
+                .item_2 {
+
+                }
+            }
         }
     }
 }
