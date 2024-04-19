@@ -1,9 +1,10 @@
 .navbar {
     background-color: var(--mat-background-app);
     color: var(--mat-black-color);
-    padding: 20px 16px;
+    padding: 20px 10%;
     .img_logo {
         width: 59px;
+        cursor: pointer;
     }
     .title_app {
         margin-left: 10px;
