@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   title = 'elafrut';
+
+  isOpenMenu = false;
+
+  openActions() {
+
+    this.isOpenMenu = !this.isOpenMenu
+
+  }
 }
