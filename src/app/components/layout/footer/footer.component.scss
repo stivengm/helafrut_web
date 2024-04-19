@@ -22,3 +22,11 @@ footer {
         }
     }
 }
+.copyright {
+    background-color: var(--mat-black-color);
+    color: var(--mat-white-color);
+    padding: 15px;
+    p {
+        margin: 0;
+    }
+}

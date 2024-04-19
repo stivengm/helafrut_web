@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  dominio = "";
+
+  ngOnInit() {
+    this.dominio = window.location.host;
+  }
+
 }
