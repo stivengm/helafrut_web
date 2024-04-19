@@ -8,6 +8,7 @@
     --mat-dark-color: #1b1d1f;
     --mat-black-color: #000000;
     --mat-white-color: #FFFFFF;
+    --mat-green-color: #1CAF96;
 }
 
 html, body { height: 100%; }
@@ -30,7 +31,7 @@ body {
             display: inline-block;
             border-radius: 8px;
             content: '';
-            background-color: #1CAF96;
+            background-color: var(--mat-green-color);
             width: 20px;
             height: 10px;
             margin-right: 0.5rem;
