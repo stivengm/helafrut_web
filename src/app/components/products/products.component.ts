@@ -8,12 +8,14 @@ import { GetProductsService } from '../../core/services/get-products.service';
 })
 export class ProductsComponent {
 
+  products: any = [];
   constructor(private productsService: GetProductsService) {}
 
   ngOnInit() {
     
     this.productsService.getProducts().subscribe((response) => {
       console.log(response);
+      this.products = response;
     });
     
   }
