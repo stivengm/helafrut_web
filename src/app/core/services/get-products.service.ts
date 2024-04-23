@@ -10,6 +10,6 @@ export class GetProductsService {
   constructor(private http: HttpClient) { }
 
   getProducts() {
-    return this.http.get(environment.endPoint + `/products`);
+    return this.http.get(environment.endPoint + `/products.json`);
   }
 }
