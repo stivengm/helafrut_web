@@ -18,7 +18,11 @@ export class NavbarComponent {
 
   openActions() {
 
-    this.isOpenMenu = !this.isOpenMenu
+    if (window.innerWidth > 768) {
+      this.isOpenMenu = true;
+    } else {
+      this.isOpenMenu = !this.isOpenMenu
+    }
 
   }
 }
