@@ -10,6 +10,12 @@ export class NavbarComponent {
 
   isOpenMenu = false;
 
+  ngOnInit() {
+    if (window.innerWidth > 768) {
+      this.isOpenMenu = true  
+    }
+  }
+
   openActions() {
 
     this.isOpenMenu = !this.isOpenMenu

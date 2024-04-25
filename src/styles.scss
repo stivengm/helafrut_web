@@ -9,6 +9,7 @@
     --mat-black-color: #000000;
     --mat-white-color: #FFFFFF;
     --mat-green-color: #1CAF96;
+    --mat-font-size-description: 18px;
 }
 
 html, body { height: 100%; }
@@ -68,6 +69,9 @@ body {
             -webkit-box-shadow: 0px 8px 16px 0px rgba(150,150,150,1);
             -moz-box-shadow: 0px 8px 16px 0px rgba(150,150,150,1);
             box-shadow: 0px 8px 16px 0px rgba(150,150,150,1);
+        }
+        .actions_routes_ocult {
+            display: none;
         }
     }
 
